@@ -6,5 +6,8 @@ target 'VIPER' do
   use_frameworks!
 
   # Pods for VIPER
-
+  pod 'Alamofire'
+  pod 'SDWebImage'
+  pod 'SwiftGen', '~> 6.0'
+  
 end
