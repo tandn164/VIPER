@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DB3E3D52A9B6D3A00C05574 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DB3E3D72A9B6D3A00C05574 /* Localizable.strings */; };
+		4DB3E3DD2A9B6E1400C05574 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB3E3DB2A9B6E1400C05574 /* Localizable.swift */; };
+		4DB3E3DE2A9B6E1400C05574 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB3E3DC2A9B6E1400C05574 /* Assets.swift */; };
 		4DDCD4D02A938C7700D221A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDCD4CF2A938C7700D221A4 /* AppDelegate.swift */; };
 		4DDCD4D22A938C7700D221A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDCD4D12A938C7700D221A4 /* SceneDelegate.swift */; };
 		4DDCD4D42A938C7700D221A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DDCD4D32A938C7700D221A4 /* ViewController.swift */; };
@@ -17,6 +20,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		4DB3E3D62A9B6D3A00C05574 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4DB3E3D82A9B6D4D00C05574 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4DB3E3DB2A9B6E1400C05574 /* Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
+		4DB3E3DC2A9B6E1400C05574 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
 		4DDCD4CC2A938C7700D221A4 /* VIPER.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VIPER.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DDCD4CF2A938C7700D221A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4DDCD4D12A938C7700D221A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -42,6 +49,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4DB3E3D22A9B6D1700C05574 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4DB3E3DA2A9B6E0200C05574 /* Generated */,
+				4DDCD4D52A938C7700D221A4 /* Main.storyboard */,
+				4DDCD4D82A938C7900D221A4 /* Assets.xcassets */,
+				4DDCD4DA2A938C7900D221A4 /* LaunchScreen.storyboard */,
+				4DB3E3D72A9B6D3A00C05574 /* Localizable.strings */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4DB3E3DA2A9B6E0200C05574 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+				4DB3E3DC2A9B6E1400C05574 /* Assets.swift */,
+				4DB3E3DB2A9B6E1400C05574 /* Localizable.swift */,
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
 		4DDCD4C32A938C7700D221A4 = {
 			isa = PBXGroup;
 			children = (
@@ -63,12 +91,10 @@
 		4DDCD4CE2A938C7700D221A4 /* VIPER */ = {
 			isa = PBXGroup;
 			children = (
+				4DB3E3D22A9B6D1700C05574 /* Resources */,
 				4DDCD4CF2A938C7700D221A4 /* AppDelegate.swift */,
 				4DDCD4D12A938C7700D221A4 /* SceneDelegate.swift */,
 				4DDCD4D32A938C7700D221A4 /* ViewController.swift */,
-				4DDCD4D52A938C7700D221A4 /* Main.storyboard */,
-				4DDCD4D82A938C7900D221A4 /* Assets.xcassets */,
-				4DDCD4DA2A938C7900D221A4 /* LaunchScreen.storyboard */,
 				4DDCD4DD2A938C7900D221A4 /* Info.plist */,
 			);
 			path = VIPER;
@@ -80,7 +106,6 @@
 				EEC6464049C3D9187FDD1A2A /* Pods-VIPER.debug.xcconfig */,
 				E1D399A2D80E1536360C3E49 /* Pods-VIPER.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -104,6 +129,7 @@
 				4DDCD4C92A938C7700D221A4 /* Frameworks */,
 				4DDCD4CA2A938C7700D221A4 /* Resources */,
 				CC498EB9FD748FAF362B01D9 /* [CP] Embed Pods Frameworks */,
+				4DB3E3D92A9B6DA400C05574 /* SwiftGen */,
 			);
 			buildRules = (
 			);
@@ -136,6 +162,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 4DDCD4C32A938C7700D221A4;
 			productRefGroup = 4DDCD4CD2A938C7700D221A4 /* Products */;
@@ -153,6 +180,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DDCD4DC2A938C7900D221A4 /* LaunchScreen.storyboard in Resources */,
+				4DB3E3D52A9B6D3A00C05574 /* Localizable.strings in Resources */,
 				4DDCD4D92A938C7900D221A4 /* Assets.xcassets in Resources */,
 				4DDCD4D72A938C7700D221A4 /* Main.storyboard in Resources */,
 			);
@@ -161,6 +189,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4DB3E3D92A9B6DA400C05574 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ -f \"${PODS_ROOT}/SwiftGen/bin/swiftgen\" ]]; then\n  $PODS_ROOT/SwiftGen/bin/swiftgen config run --config Scripts/swiftgen.yml\nelse\n  echo \"warning: SwiftGen is not installed. Run 'pod install --repo-update' to install it.\"\nfi\n";
+		};
 		C137A49AA2F3DE886DC7490C /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -209,6 +255,8 @@
 			files = (
 				4DDCD4D42A938C7700D221A4 /* ViewController.swift in Sources */,
 				4DDCD4D02A938C7700D221A4 /* AppDelegate.swift in Sources */,
+				4DB3E3DD2A9B6E1400C05574 /* Localizable.swift in Sources */,
+				4DB3E3DE2A9B6E1400C05574 /* Assets.swift in Sources */,
 				4DDCD4D22A938C7700D221A4 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -216,6 +264,15 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		4DB3E3D72A9B6D3A00C05574 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DB3E3D62A9B6D3A00C05574 /* en */,
+				4DB3E3D82A9B6D4D00C05574 /* ja */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 		4DDCD4D52A938C7700D221A4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -239,6 +296,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -299,6 +357,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

@@ -1,0 +1,13 @@
+strings:
+  inputs: ../VIPER/Resources/ja.lproj
+  filter: .+\.strings$
+  outputs:
+    - templatePath: stringsTemplate.stencil
+      output: ../VIPER/Resources/Generated/Localizable.swift
+xcassets:
+  inputs:
+    - ../VIPER/Resources/Assets.xcassets
+  outputs:
+    - templatePath: assetsTemplate.stencil
+      output: ../VIPER/Resources/Generated/Assets.swift
+

@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  VIPER
+
+  Created by Nguyễn Đức Tân on 27/08/2023.
+  
+*/
+
+"tabTop" = "トップ";
+"tabSetting" = "設定";
+"OK" = "オッケ";
+"Error" = "エラー";
+"hyphenCharacter" = "-";
+"noCharacterString" = "";
