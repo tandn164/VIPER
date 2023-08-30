@@ -13,6 +13,7 @@ class ViewManager {
     
     func setTabbarIsRootView() {
         let mainViewController = UIViewController()
+        mainViewController.view.backgroundColor = .white
         let oldRootView = ApplicationUtil.mainView
 
         if #available(iOS 13.0, *) {
