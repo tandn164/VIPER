@@ -48,7 +48,7 @@ class ApplicationUtil {
         }
     }
     
-    static var mainView: MainViewController? {
+    static var mainView: UIViewController? {
         var mainView: UIViewController?
         
         if #available(iOS 13.0, *) {
@@ -61,7 +61,7 @@ class ApplicationUtil {
         } else {
             mainView = UIApplication.shared.keyWindow?.rootViewController
         }
-        return mainView as? MainViewController
+        return mainView as? UIViewController
     }
 
     static func openURL(_ url: URL) {

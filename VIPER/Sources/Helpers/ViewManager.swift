@@ -12,7 +12,7 @@ class ViewManager {
     var selectedIndex: Int?
     
     func setTabbarIsRootView() {
-        let mainViewController = MainViewController()
+        let mainViewController = UIViewController()
         let oldRootView = ApplicationUtil.mainView
 
         if #available(iOS 13.0, *) {

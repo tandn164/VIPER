@@ -28,6 +28,9 @@
 		4D281E052A9E20DB00A2E7D5 /* ApplicationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D281DEF2A9E20DB00A2E7D5 /* ApplicationUtil.swift */; };
 		4D281E062A9E20DB00A2E7D5 /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D281DF12A9E20DB00A2E7D5 /* API.swift */; };
 		4D281E072A9E20DB00A2E7D5 /* PhotoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D281DF22A9E20DB00A2E7D5 /* PhotoAPI.swift */; };
+		4D281E742A9F747700A2E7D5 /* Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4D281E712A9F747700A2E7D5 /* Common.xcconfig */; };
+		4D281E752A9F747700A2E7D5 /* Development.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4D281E722A9F747700A2E7D5 /* Development.xcconfig */; };
+		4D281E762A9F747700A2E7D5 /* Production.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4D281E732A9F747700A2E7D5 /* Production.xcconfig */; };
 		4DB3E3D52A9B6D3A00C05574 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DB3E3D72A9B6D3A00C05574 /* Localizable.strings */; };
 		4DB3E3DD2A9B6E1400C05574 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB3E3DB2A9B6E1400C05574 /* Localizable.swift */; };
 		4DB3E3DE2A9B6E1400C05574 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DB3E3DC2A9B6E1400C05574 /* Assets.swift */; };
@@ -41,6 +44,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1B6A52389EE384BED735600B /* Pods-VIPER.development.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPER.development.xcconfig"; path = "Target Support Files/Pods-VIPER/Pods-VIPER.development.xcconfig"; sourceTree = "<group>"; };
+		47AC14A546F2826EFCDE6692 /* Pods-VIPER.production.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VIPER.production.xcconfig"; path = "Target Support Files/Pods-VIPER/Pods-VIPER.production.xcconfig"; sourceTree = "<group>"; };
 		4D281DD82A9E20DB00A2E7D5 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
 		4D281DD92A9E20DB00A2E7D5 /* Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
 		4D281DDA2A9E20DB00A2E7D5 /* EnumDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumDefine.swift; sourceTree = "<group>"; };
@@ -62,6 +67,9 @@
 		4D281DEF2A9E20DB00A2E7D5 /* ApplicationUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationUtil.swift; sourceTree = "<group>"; };
 		4D281DF12A9E20DB00A2E7D5 /* API.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
 		4D281DF22A9E20DB00A2E7D5 /* PhotoAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PhotoAPI.swift; sourceTree = "<group>"; };
+		4D281E712A9F747700A2E7D5 /* Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
+		4D281E722A9F747700A2E7D5 /* Development.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
+		4D281E732A9F747700A2E7D5 /* Production.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
 		4DB3E3D62A9B6D3A00C05574 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4DB3E3D82A9B6D4D00C05574 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4DB3E3DB2A9B6E1400C05574 /* Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
@@ -163,6 +171,28 @@
 			path = Networks;
 			sourceTree = "<group>";
 		};
+		4D281E6F2A9F744D00A2E7D5 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				4D281DDC2A9E20DB00A2E7D5 /* Controls */,
+				4D281DD72A9E20DB00A2E7D5 /* Define */,
+				4D281DE22A9E20DB00A2E7D5 /* Extensions */,
+				4D281DE92A9E20DB00A2E7D5 /* Helpers */,
+				4D281DF02A9E20DB00A2E7D5 /* Networks */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		4D281E702A9F747700A2E7D5 /* Configs */ = {
+			isa = PBXGroup;
+			children = (
+				4D281E712A9F747700A2E7D5 /* Common.xcconfig */,
+				4D281E722A9F747700A2E7D5 /* Development.xcconfig */,
+				4D281E732A9F747700A2E7D5 /* Production.xcconfig */,
+			);
+			path = Configs;
+			sourceTree = "<group>";
+		};
 		4DB3E3D22A9B6D1700C05574 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -205,11 +235,8 @@
 		4DDCD4CE2A938C7700D221A4 /* VIPER */ = {
 			isa = PBXGroup;
 			children = (
-				4D281DDC2A9E20DB00A2E7D5 /* Controls */,
-				4D281DD72A9E20DB00A2E7D5 /* Define */,
-				4D281DE22A9E20DB00A2E7D5 /* Extensions */,
-				4D281DE92A9E20DB00A2E7D5 /* Helpers */,
-				4D281DF02A9E20DB00A2E7D5 /* Networks */,
+				4D281E702A9F747700A2E7D5 /* Configs */,
+				4D281E6F2A9F744D00A2E7D5 /* Sources */,
 				4DB3E3D22A9B6D1700C05574 /* Resources */,
 				4DDCD4CF2A938C7700D221A4 /* AppDelegate.swift */,
 				4DDCD4D12A938C7700D221A4 /* SceneDelegate.swift */,
@@ -224,6 +251,8 @@
 			children = (
 				EEC6464049C3D9187FDD1A2A /* Pods-VIPER.debug.xcconfig */,
 				E1D399A2D80E1536360C3E49 /* Pods-VIPER.release.xcconfig */,
+				1B6A52389EE384BED735600B /* Pods-VIPER.development.xcconfig */,
+				47AC14A546F2826EFCDE6692 /* Pods-VIPER.production.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -298,6 +327,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4D281E752A9F747700A2E7D5 /* Development.xcconfig in Resources */,
+				4D281E742A9F747700A2E7D5 /* Common.xcconfig in Resources */,
+				4D281E762A9F747700A2E7D5 /* Production.xcconfig in Resources */,
 				4DDCD4DC2A938C7900D221A4 /* LaunchScreen.storyboard in Resources */,
 				4DB3E3D52A9B6D3A00C05574 /* Localizable.strings in Resources */,
 				4DDCD4D92A938C7900D221A4 /* Assets.xcassets in Resources */,
@@ -432,8 +464,9 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		4DDCD4DE2A938C7900D221A4 /* Debug */ = {
+		4DDCD4DE2A938C7900D221A4 /* Development */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D281E722A9F747700A2E7D5 /* Development.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
@@ -483,7 +516,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -491,10 +524,11 @@
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
-			name = Debug;
+			name = Development;
 		};
-		4DDCD4DF2A938C7900D221A4 /* Release */ = {
+		4DDCD4DF2A938C7900D221A4 /* Production */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4D281E732A9F747700A2E7D5 /* Production.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
@@ -538,7 +572,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -546,11 +580,11 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 				VALIDATE_PRODUCT = YES;
 			};
-			name = Release;
+			name = Production;
 		};
-		4DDCD4E12A938C7900D221A4 /* Debug */ = {
+		4DDCD4E12A938C7900D221A4 /* Development */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = EEC6464049C3D9187FDD1A2A /* Pods-VIPER.debug.xcconfig */;
+			baseConfigurationReference = 1B6A52389EE384BED735600B /* Pods-VIPER.development.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -575,11 +609,11 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Debug;
+			name = Development;
 		};
-		4DDCD4E22A938C7900D221A4 /* Release */ = {
+		4DDCD4E22A938C7900D221A4 /* Production */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E1D399A2D80E1536360C3E49 /* Pods-VIPER.release.xcconfig */;
+			baseConfigurationReference = 47AC14A546F2826EFCDE6692 /* Pods-VIPER.production.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -604,7 +638,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
-			name = Release;
+			name = Production;
 		};
 /* End XCBuildConfiguration section */
 
@@ -612,20 +646,20 @@
 		4DDCD4C72A938C7700D221A4 /* Build configuration list for PBXProject "VIPER" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DDCD4DE2A938C7900D221A4 /* Debug */,
-				4DDCD4DF2A938C7900D221A4 /* Release */,
+				4DDCD4DE2A938C7900D221A4 /* Development */,
+				4DDCD4DF2A938C7900D221A4 /* Production */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Production;
 		};
 		4DDCD4E02A938C7900D221A4 /* Build configuration list for PBXNativeTarget "VIPER" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4DDCD4E12A938C7900D221A4 /* Debug */,
-				4DDCD4E22A938C7900D221A4 /* Release */,
+				4DDCD4E12A938C7900D221A4 /* Development */,
+				4DDCD4E22A938C7900D221A4 /* Production */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
+			defaultConfigurationName = Production;
 		};
 /* End XCConfigurationList section */
 	};
